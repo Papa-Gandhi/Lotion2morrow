@@ -1,0 +1,2 @@
+module Lotion2morrow {
+}
