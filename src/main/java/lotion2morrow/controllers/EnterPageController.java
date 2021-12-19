@@ -2,13 +2,15 @@ package lotion2morrow.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import lotion2morrow.utils.EnterPageListeners;
 
-public class EnterPageController {
+public class EnterPageController implements EnterPageListeners {
 
     @FXML
     private Button homeBtn;
 
+    @Override
     public void onClickHome() {
-        System.out.println("You've clicked the home button!");
+        EnterPageListeners.super.onClickHome();
     }
 }
