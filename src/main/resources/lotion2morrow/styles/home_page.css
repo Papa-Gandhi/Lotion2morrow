@@ -29,3 +29,8 @@
     -fx-border-color: #9eeae7;
     -fx-background-color: #FFFFFF;
 }
+
+.official-domains-box {
+    -fx-background-color: #fcf8e3;
+    -fx-border-color: #faebcc;
+}

@@ -632,13 +632,13 @@
                <left>
                   <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                      <children>
-                        <VBox maxHeight="1400.0" minHeight="1400.0" minWidth="850.0" prefHeight="1400.0" prefWidth="844.0">
+                        <VBox maxHeight="1400.0" minHeight="1267.0" minWidth="850.0" prefHeight="1267.0" prefWidth="850.0">
                            <children>
                               <HBox prefHeight="333.0" prefWidth="876.0">
                                  <children>
-                                    <VBox fx:id="notificationsBox" maxHeight="500.0" minHeight="329.0" prefHeight="1145.0" prefWidth="876.0">
+                                    <VBox fx:id="notificationsBox" maxHeight="500.0" minHeight="329.0" prefHeight="1145.0" prefWidth="876.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                        <children>
-                                          <HBox prefHeight="44.0" prefWidth="876.0">
+                                          <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                              <children>
                                                 <Label text="Notifications">
                                                    <font>
@@ -672,7 +672,7 @@
                                           </HBox>
                                           <HBox layoutX="10.0" layoutY="110.0" prefHeight="192.0" prefWidth="876.0">
                                              <children>
-                                                <VBox prefHeight="149.0" prefWidth="854.0">
+                                                <VBox prefHeight="149.0" prefWidth="854.0" styleClass="official-domains-box" stylesheets="@../styles/home_page.css">
                                                    <children>
                                                       <Label text="Official domains :">
                                                          <font>
@@ -767,12 +767,15 @@
                                              </children>
                                           </HBox>
                                        </children>
+                                       <HBox.margin>
+                                          <Insets bottom="40.0" />
+                                       </HBox.margin>
                                     </VBox>
                                  </children>
                               </HBox>
-                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="329.0" prefHeight="450.0" prefWidth="850.0">
+                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="329.0" prefHeight="450.0" prefWidth="850.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                  <children>
-                                    <HBox prefHeight="44.0" prefWidth="876.0">
+                                    <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                        <children>
                                           <Label text="Movies">
                                              <font>
@@ -984,11 +987,19 @@
                                           </VBox>
                                        </children>
                                     </HBox>
+                                    <HBox alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="11.0" prefHeight="44.0" prefWidth="876.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" text="more" />
+                                       </children>
+                                    </HBox>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets bottom="40.0" />
+                                 </VBox.margin>
                               </VBox>
-                              <VBox fx:id="tvEpisodesBox" prefHeight="508.0" prefWidth="800.0">
+                              <VBox fx:id="tvEpisodesBox" prefHeight="485.0" prefWidth="850.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                  <children>
-                                    <HBox prefHeight="44.0" prefWidth="876.0">
+                                    <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                        <children>
                                           <Label text="TV Episodes">
                                              <font>
@@ -1189,6 +1200,11 @@
                                              <VBox.margin>
                                                 <Insets bottom="10.0" left="15.0" />
                                              </VBox.margin>
+                                          </HBox>
+                                          <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" text="more" />
+                                             </children>
                                           </HBox>
                                        </children>
                                     </VBox>
