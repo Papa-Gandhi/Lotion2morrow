@@ -35,7 +35,7 @@
                                     <Insets bottom="10.0" />
                                  </VBox.margin>
                               </Label>
-                              <Button fx:id="homeButton" mnemonicParsing="false" styleClass="home-button" stylesheets="@../styles/enter_page.css" text="Home">
+                              <Button fx:id="homeBtn" mnemonicParsing="false" onAction="#onClickHome" styleClass="home-button" stylesheets="@../styles/enter_page.css" text="Home">
                                  <font>
                                     <Font size="16.0" />
                                  </font>

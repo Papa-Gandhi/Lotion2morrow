@@ -27,6 +27,7 @@ public class Main extends Application {
             // Displaying the scene
             primaryStage.setTitle("Enter Page");
             primaryStage.setScene(scene);
+            primaryStage.setMaximized(true);
             primaryStage.show();
 
         } catch (IOException ioe) {
