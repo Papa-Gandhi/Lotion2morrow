@@ -1,0 +1,25 @@
+.top-pane {
+    -fx-background-color: #9eeae7;
+}
+
+.top-box {
+    -fx-background-color: #9eeae7;
+    -fx-border-style: solid;
+    -fx-border-color: #bce8f1;
+}
+
+.box {
+    -fx-border-style: solid;
+    -fx-border-color: #DFE5D3;
+    -fx-background-color: #FFFFFF;
+}
+
+.login-button {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: #FFFFFF;
+}
+
+.signup-button {
+    -fx-background-color: #5cb85c;
+    -fx-text-fill: #FFFFFF;
+}
