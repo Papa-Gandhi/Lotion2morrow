@@ -1,0 +1,16 @@
+.v-box {
+    -fx-font-family: 'Open Sans', Arial, sans-serif;
+    -fx-border-style: solid;
+    -fx-border-color: #DFE5D3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.0, 0.0, 0.0);;
+}
+
+.home-button {
+    -fx-background-color: #5CB95C;
+    -fx-text-fill: #FFFFFF;
+}
+
+.home-button:hover {
+    -fx-background-color: #0FAC0E;
+    -fx-cursor: hand;
+}
