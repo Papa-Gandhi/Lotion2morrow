@@ -1,49 +1,1235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lotion2morrow.controllers.HomePageController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="2000.0" minWidth="-Infinity" prefHeight="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lotion2morrow.controllers.HomePageController">
    <children>
-      <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ScrollPane maxHeight="2000.0" minHeight="2000.0" prefHeight="2000.0" snapToPixel="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <content>
-            <BorderPane prefHeight="800.0" prefWidth="1280.0">
+            <BorderPane>
                <top>
-                  <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                  <VBox fillWidth="false" BorderPane.alignment="CENTER">
                      <children>
-                        <HBox prefHeight="100.0" prefWidth="200.0">
+                        <HBox>
                            <children>
-                              <Label text="&lt;={Lotion2Day LOGGO}" />
+                              <ImageView fitHeight="150.0" fitWidth="624.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/Title.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets bottom="20.0" left="5.0" right="20.0" top="20.0" />
+                                 </HBox.margin>
+                              </ImageView>
                            </children>
                         </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0">
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                            <children>
-                              <Hyperlink text="Home" />
-                              <Hyperlink layoutX="10.0" layoutY="49.0" text="Movies" />
-                              <Hyperlink layoutX="10.0" layoutY="49.0" text="TV Series" />
-                              <ChoiceBox prefWidth="150.0" />
-                              <Hyperlink layoutX="596.0" layoutY="49.0" text="FAQ" />
-                              <Hyperlink layoutX="304.0" layoutY="49.0" text="Lotion2morrow Official Domains" />
-                              <TextField promptText="Find Movies, TVs, Directors, Actors" />
-                              <Button layoutX="270.0" layoutY="48.0" mnemonicParsing="false" text="Button" />
-                              <Button layoutX="471.0" layoutY="48.0" mnemonicParsing="false" text="Button" />
-                              <Button layoutX="523.0" layoutY="48.0" mnemonicParsing="false" text="Button" />
-                              <Button layoutX="575.0" layoutY="48.0" mnemonicParsing="false" text="Login" />
-                              <Button layoutX="627.0" layoutY="48.0" mnemonicParsing="false" text="Sign up" />
+                              <Hyperlink prefHeight="38.0" prefWidth="72.0" text="Home">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin></Hyperlink>
+                              <Hyperlink layoutX="10.0" layoutY="49.0" prefHeight="35.0" prefWidth="71.0" text="Movies">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></Hyperlink>
+                              <Hyperlink layoutX="10.0" layoutY="49.0" prefHeight="35.0" prefWidth="87.0" text="TV Series">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></Hyperlink>
+                              <ChoiceBox prefHeight="25.0" prefWidth="120.0" />
+                              <Hyperlink layoutX="596.0" layoutY="49.0" prefHeight="35.0" prefWidth="48.0" text="FAQ">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font></Hyperlink>
+                              <Hyperlink layoutX="304.0" layoutY="49.0" prefHeight="35.0" prefWidth="265.0" text="Official Domains">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></Hyperlink>
+                              <TextField prefHeight="39.0" prefWidth="300.0" promptText="Find Movies, TVs, Directors, Actors">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin></TextField>
+                              <ImageView fitHeight="44.0" fitWidth="39.0">
+                                 <image>
+                                    <Image url="@../icons/search-icon.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="5.0" right="5.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="38.0" fitWidth="39.0">
+                                 <image>
+                                    <Image url="@../icons/twitter_icon.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="41.0" fitWidth="40.0">
+                                 <image>
+                                    <Image url="@../icons/facebook_icon.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets left="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Button layoutX="627.0" layoutY="48.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="79.0" styleClass="login-button" stylesheets="@../styles/home_page.css" text="Login">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="15.0" right="5.0" />
+                                 </HBox.margin></Button>
+                              <Button layoutX="1231.0" layoutY="16.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="95.0" styleClass="signup-button" stylesheets="@../styles/home_page.css" text="Sign up">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
                            </children>
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" />
+                           </VBox.margin>
                         </HBox>
                      </children>
                   </VBox>
                </top>
+               <right>
+                  <VBox fx:id="allMoviesBox" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox prefHeight="638.0" prefWidth="444.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                           <children>
+                              <HBox fx:id="topMoviesBox" prefHeight="59.0" prefWidth="465.0" styleClass="top-box" stylesheets="@../styles/home_page.css">
+                                 <children>
+                                    <Label text="Top Movies">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <Label prefHeight="27.0" prefWidth="148.0" text="Recommendation">
+                                       <HBox.margin>
+                                          <Insets right="100.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="10.0" text="Popular">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="27.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="68.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="109.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="150.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="191.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                    </Hyperlink>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="314.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="355.0" prefHeight="41.0" prefWidth="460.0">
+                                 <children>
+                                    <Hyperlink text="Hyperlink">
+                                       <HBox.margin>
+                                          <Insets right="150.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                    <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" top="10.0" />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets right="20.0" top="30.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox fx:id="allTvBox" layoutX="10.0" layoutY="67.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                           <children>
+                              <HBox fx:id="topTbBox" prefHeight="59.0" prefWidth="465.0" styleClass="top-box" stylesheets="@../styles/home_page.css">
+                                 <children>
+                                    <Label text="Top TVs">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="39.0" prefWidth="465.0">
+                                 <children>
+                                    <Label prefHeight="27.0" prefWidth="146.0" text="Recommendation">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="100.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="10.0" text="Popular">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
+                                       <children>
+                                          <Hyperlink prefHeight="19.0" text="Hyperlink">
+                                             <HBox.margin>
+                                                <Insets right="150.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                          <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Hyperlink>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets bottom="20.0" top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets right="20.0" top="30.0" />
+                           </VBox.margin>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </right>
+               <bottom>
+                  <HBox alignment="CENTER" prefHeight="100.0" styleClass="copyright-box" stylesheets="@../styles/home_page.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label text="Copyright@ 2021 Lotion2morrow All rights reserved">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets bottom="20.0" left="10.0" right="20.0" top="40.0" />
+                     </BorderPane.margin>
+                  </HBox>
+               </bottom>
+               <left>
+                  <HBox prefHeight="1700.0" prefWidth="850.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox maxHeight="1713.0" minHeight="1267.0" minWidth="850.0" prefHeight="1444.0" prefWidth="850.0">
+                           <children>
+                              <HBox prefHeight="333.0" prefWidth="876.0">
+                                 <children>
+                                    <VBox fx:id="notificationsBox" maxHeight="500.0" minHeight="500.0" prefHeight="410.0" prefWidth="815.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                                       <children>
+                                          <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
+                                             <children>
+                                                <Label text="Notifications">
+                                                   <font>
+                                                      <Font size="24.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets bottom="10.0" left="10.0" top="10.0" />
+                                                   </HBox.margin>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="876.0">
+                                             <children>
+                                                <VBox prefHeight="61.0" prefWidth="633.0">
+                                                   <children>
+                                                      <Label text="Hi Everyone:">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="20.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label layoutX="10.0" layoutY="10.0" text="You can watch all videos without logging in or registration">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label layoutX="10.0" layoutY="27.0" text="Lotion2morrow is free all the time, but there are a few ads on videoplayer page.">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                   <HBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                   </HBox.margin>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox layoutX="10.0" layoutY="110.0" prefHeight="192.0" prefWidth="876.0">
+                                             <children>
+                                                <VBox prefHeight="149.0" prefWidth="854.0" styleClass="official-domains-box" stylesheets="@../styles/home_page.css">
+                                                   <children>
+                                                      <Label text="Official domains :">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" left="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <HBox prefHeight="42.0" prefWidth="606.0">
+                                                         <children>
+                                                            <Hyperlink text="lotion2morrow.com">
+                                                               <HBox.margin>
+                                                                  <Insets left="10.0" />
+                                                               </HBox.margin></Hyperlink>
+                                                            <Hyperlink layoutX="10.0" layoutY="10.0" text="lotion2morrow.ac" />
+                                                            <Hyperlink layoutX="69.0" layoutY="10.0" text="lotion2morrow.to" />
+                                                         </children>
+                                                      </HBox>
+                                                      <Label layoutX="10.0" layoutY="27.0" text="Official email :">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <HBox layoutX="10.0" layoutY="27.0" prefHeight="42.0" prefWidth="606.0">
+                                                         <children>
+                                                            <Hyperlink prefHeight="23.0" prefWidth="163.0" text="support@lotion2morrow.net.">
+                                                               <HBox.margin>
+                                                                  <Insets left="10.0" />
+                                                               </HBox.margin></Hyperlink>
+                                                            <Label prefHeight="38.0" prefWidth="391.0" text="Contact us for any questions or suggestions.">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </HBox>
+                                                      <Label text="All other websites with similar domains or designs are unrelated to Lotion2morrow.">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="2.0" left="10.0" top="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label layoutX="10.0" layoutY="44.0" text="Accounts with names like &quot;lotion2morrow&quot; on twitter, instagram, facebook, and tiktok are also fake.">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets left="10.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                      <Label layoutX="10.0" layoutY="61.0" text="We did not register these accounts.">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" left="10.0" top="2.0" />
+                                                         </VBox.margin>
+                                                      </Label>
+                                                   </children>
+                                                   <HBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                   </HBox.margin>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                       <HBox.margin>
+                                          <Insets bottom="20.0" left="15.0" right="20.0" top="30.0" />
+                                       </HBox.margin>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="550.0" prefHeight="483.0" prefWidth="840.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                                 <children>
+                                    <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
+                                       <children>
+                                          <Label text="Movies">
+                                             <font>
+                                                <Font size="24.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" top="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="876.0">
+                                       <children>
+                                          <VBox prefHeight="70.0" prefWidth="436.0">
+                                             <children>
+                                                <Label text="Most Popular Today">
+                                                   <font>
+                                                      <Font size="18.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" top="20.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="347.0" prefWidth="848.0">
+                                       <children>
+                                          <VBox prefHeight="322.0" prefWidth="822.0">
+                                             <children>
+                                                <HBox maxHeight="160.0" minHeight="160.0" prefHeight="160.0" prefWidth="816.0">
+                                                   <children>
+                                                      <VBox fillWidth="false" prefHeight="171.0" prefWidth="144.0">
+                                                         <children>
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie1.jpg" />
+                                                               </image>
+                                                               <VBox.margin>
+                                                                  <Insets />
+                                                               </VBox.margin>
+                                                            </ImageView>
+                                                            <Hyperlink prefHeight="23.0" prefWidth="78.0" text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="172.0" prefWidth="151.0">
+                                                         <children>
+                                                            <ImageView fitHeight="139.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie2.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="172.0" prefWidth="151.0">
+                                                         <children>
+                                                            <ImageView fitHeight="139.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie3.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="171.0" prefWidth="146.0">
+                                                         <children>
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie4.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="171.0" prefWidth="133.0">
+                                                         <children>
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie5.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie6.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets bottom="40.0" left="15.0" />
+                                                   </VBox.margin>
+                                                </HBox>
+                                                <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
+                                                   <children>
+                                                      <VBox prefHeight="147.0" prefWidth="142.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie8.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="152.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie9.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="147.0" prefWidth="148.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie10.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="147.0" prefWidth="145.0">
+                                                         <children>
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie11.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="147.0" prefWidth="140.0">
+                                                         <children>
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie12.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                         <children>
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie7.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets bottom="10.0" left="15.0" />
+                                                   </VBox.margin>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="11.0" prefHeight="44.0" prefWidth="876.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" text="more">
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" right="20.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets bottom="40.0" left="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                              <VBox fx:id="tvEpisodesBox" maxHeight="700.0" minHeight="581.0" prefHeight="581.0" prefWidth="840.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                                 <children>
+                                    <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
+                                       <children>
+                                          <Label text="TV Episodes">
+                                             <font>
+                                                <Font size="24.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" top="10.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="44.0" prefWidth="876.0">
+                                       <children>
+                                          <Label text="Most popular today">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets bottom="20.0" left="20.0" top="20.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <VBox prefHeight="422.0" prefWidth="848.0">
+                                       <children>
+                                          <HBox prefHeight="42.0" prefWidth="606.0">
+                                             <children>
+                                                <VBox prefHeight="173.0" prefWidth="140.0">
+                                                   <children>
+                                                      <ImageView fitHeight="133.0" fitWidth="110.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv1.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="173.0" prefWidth="146.0">
+                                                   <children>
+                                                      <ImageView fitHeight="136.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv2.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="173.0" prefWidth="141.0">
+                                                   <children>
+                                                      <ImageView fitHeight="137.0" fitWidth="104.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv3.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="173.0" prefWidth="141.0">
+                                                   <children>
+                                                      <ImageView fitHeight="139.0" fitWidth="106.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv4.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="173.0" prefWidth="143.0">
+                                                   <children>
+                                                      <ImageView fitHeight="139.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv5.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <ImageView fitHeight="140.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv6.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets bottom="30.0" left="15.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
+                                             <children>
+                                                <VBox prefHeight="163.0" prefWidth="138.0">
+                                                   <children>
+                                                      <ImageView fitHeight="123.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv7.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="163.0" prefWidth="148.0">
+                                                   <children>
+                                                      <ImageView fitHeight="125.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv8.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="163.0" prefWidth="142.0">
+                                                   <children>
+                                                      <ImageView fitHeight="126.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv9.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="163.0" prefWidth="139.0">
+                                                   <children>
+                                                      <ImageView fitHeight="128.0" fitWidth="106.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv10.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="163.0" prefWidth="143.0">
+                                                   <children>
+                                                      <ImageView fitHeight="130.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv11.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <ImageView fitHeight="130.0" fitWidth="108.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv12.jpg" />
+                                                         </image>
+                                                      </ImageView>
+                                                      <Hyperlink text="Hyperlink">
+                                                         <font>
+                                                            <Font size="16.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" left="15.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button mnemonicParsing="false" text="more">
+                                                   <HBox.margin>
+                                                      <Insets bottom="10.0" right="20.0" />
+                                                   </HBox.margin></Button>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </left>
             </BorderPane>
          </content>
       </ScrollPane>
