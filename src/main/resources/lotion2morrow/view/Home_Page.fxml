@@ -58,8 +58,8 @@
                                  <HBox.margin>
                                     <Insets right="5.0" />
                                  </HBox.margin></Hyperlink>
-                              <ChoiceBox prefHeight="25.0" prefWidth="107.0" />
-                              <Hyperlink layoutX="596.0" layoutY="49.0" prefHeight="35.0" prefWidth="49.0" text="FAQ">
+                              <ChoiceBox prefHeight="25.0" prefWidth="120.0" />
+                              <Hyperlink layoutX="596.0" layoutY="49.0" prefHeight="35.0" prefWidth="48.0" text="FAQ">
                                  <font>
                                     <Font size="18.0" />
                                  </font></Hyperlink>
@@ -127,7 +127,7 @@
                <right>
                   <VBox fx:id="allMoviesBox" BorderPane.alignment="CENTER">
                      <children>
-                        <VBox styleClass="box" stylesheets="@../styles/home_page.css">
+                        <VBox prefHeight="638.0" prefWidth="444.0" styleClass="box" stylesheets="@../styles/home_page.css">
                            <children>
                               <HBox fx:id="topMoviesBox" prefHeight="59.0" prefWidth="465.0" styleClass="top-box" stylesheets="@../styles/home_page.css">
                                  <children>
@@ -366,7 +366,7 @@
                               </HBox>
                            </children>
                            <VBox.margin>
-                              <Insets top="30.0" />
+                              <Insets right="20.0" top="30.0" />
                            </VBox.margin>
                         </VBox>
                         <VBox fx:id="allTvBox" layoutX="10.0" layoutY="67.0" styleClass="box" stylesheets="@../styles/home_page.css">
@@ -609,7 +609,7 @@
                               </VBox>
                            </children>
                            <VBox.margin>
-                              <Insets top="30.0" />
+                              <Insets right="20.0" top="30.0" />
                            </VBox.margin>
                         </VBox>
                      </children>
@@ -625,18 +625,18 @@
                         </Label>
                      </children>
                      <BorderPane.margin>
-                        <Insets bottom="20.0" left="20.0" right="20.0" top="40.0" />
+                        <Insets bottom="20.0" left="10.0" right="20.0" top="40.0" />
                      </BorderPane.margin>
                   </HBox>
                </bottom>
                <left>
-                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                  <HBox prefHeight="1700.0" prefWidth="850.0" BorderPane.alignment="CENTER">
                      <children>
-                        <VBox maxHeight="1400.0" minHeight="1267.0" minWidth="850.0" prefHeight="1267.0" prefWidth="850.0">
+                        <VBox maxHeight="1713.0" minHeight="1267.0" minWidth="850.0" prefHeight="1444.0" prefWidth="850.0">
                            <children>
                               <HBox prefHeight="333.0" prefWidth="876.0">
                                  <children>
-                                    <VBox fx:id="notificationsBox" maxHeight="500.0" minHeight="329.0" prefHeight="1145.0" prefWidth="876.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                                    <VBox fx:id="notificationsBox" maxHeight="500.0" minHeight="500.0" prefHeight="410.0" prefWidth="815.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                        <children>
                                           <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                              <children>
@@ -644,6 +644,9 @@
                                                    <font>
                                                       <Font size="24.0" />
                                                    </font>
+                                                   <HBox.margin>
+                                                      <Insets bottom="10.0" left="10.0" top="10.0" />
+                                                   </HBox.margin>
                                                 </Label>
                                              </children>
                                           </HBox>
@@ -653,20 +656,29 @@
                                                    <children>
                                                       <Label text="Hi Everyone:">
                                                          <font>
-                                                            <Font size="18.0" />
+                                                            <Font size="14.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="20.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                       <Label layoutX="10.0" layoutY="10.0" text="You can watch all videos without logging in or registration">
                                                          <font>
-                                                            <Font size="16.0" />
+                                                            <Font size="14.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="5.0" />
+                                                         </VBox.margin>
                                                       </Label>
-                                                      <Label layoutX="10.0" layoutY="27.0" text="Lotion2morrow is free all the time, but there are few ads on videoplayer page.">
+                                                      <Label layoutX="10.0" layoutY="27.0" text="Lotion2morrow is free all the time, but there are a few ads on videoplayer page.">
                                                          <font>
-                                                            <Font size="16.0" />
+                                                            <Font size="14.0" />
                                                          </font>
                                                       </Label>
                                                    </children>
+                                                   <HBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                   </HBox.margin>
                                                 </VBox>
                                              </children>
                                           </HBox>
@@ -678,102 +690,80 @@
                                                          <font>
                                                             <Font size="16.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" left="10.0" top="10.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                       <HBox prefHeight="42.0" prefWidth="606.0">
                                                          <children>
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="10.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="69.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="128.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="187.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="246.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="305.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="364.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                            <Hyperlink layoutX="423.0" layoutY="10.0" text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
+                                                            <Hyperlink text="lotion2morrow.com">
+                                                               <HBox.margin>
+                                                                  <Insets left="10.0" />
+                                                               </HBox.margin></Hyperlink>
+                                                            <Hyperlink layoutX="10.0" layoutY="10.0" text="lotion2morrow.ac" />
+                                                            <Hyperlink layoutX="69.0" layoutY="10.0" text="lotion2morrow.to" />
                                                          </children>
                                                       </HBox>
                                                       <Label layoutX="10.0" layoutY="27.0" text="Official email :">
                                                          <font>
                                                             <Font size="16.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets left="10.0" top="10.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                       <HBox layoutX="10.0" layoutY="27.0" prefHeight="42.0" prefWidth="606.0">
                                                          <children>
-                                                            <Hyperlink prefHeight="33.0" prefWidth="218.0" text="support@lotion2morrow.net.">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
+                                                            <Hyperlink prefHeight="23.0" prefWidth="163.0" text="support@lotion2morrow.net.">
+                                                               <HBox.margin>
+                                                                  <Insets left="10.0" />
+                                                               </HBox.margin></Hyperlink>
                                                             <Label prefHeight="38.0" prefWidth="391.0" text="Contact us for any questions or suggestions.">
                                                                <font>
-                                                                  <Font size="20.0" />
+                                                                  <Font size="14.0" />
                                                                </font>
                                                             </Label>
                                                          </children>
                                                       </HBox>
                                                       <Label text="All other websites with similar domains or designs are unrelated to Lotion2morrow.">
                                                          <font>
-                                                            <Font size="18.0" />
+                                                            <Font size="14.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="2.0" left="10.0" top="10.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                       <Label layoutX="10.0" layoutY="44.0" text="Accounts with names like &quot;lotion2morrow&quot; on twitter, instagram, facebook, and tiktok are also fake.">
                                                          <font>
-                                                            <Font size="18.0" />
+                                                            <Font size="14.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets left="10.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                       <Label layoutX="10.0" layoutY="61.0" text="We did not register these accounts.">
                                                          <font>
-                                                            <Font size="18.0" />
+                                                            <Font size="14.0" />
                                                          </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" left="10.0" top="2.0" />
+                                                         </VBox.margin>
                                                       </Label>
                                                    </children>
+                                                   <HBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                   </HBox.margin>
                                                 </VBox>
                                              </children>
                                           </HBox>
                                        </children>
                                        <HBox.margin>
-                                          <Insets bottom="40.0" />
+                                          <Insets bottom="20.0" left="15.0" right="20.0" top="30.0" />
                                        </HBox.margin>
                                     </VBox>
                                  </children>
                               </HBox>
-                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="329.0" prefHeight="450.0" prefWidth="850.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="550.0" prefHeight="483.0" prefWidth="840.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                  <children>
                                     <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                        <children>
@@ -781,6 +771,9 @@
                                              <font>
                                                 <Font size="24.0" />
                                              </font>
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" top="10.0" />
+                                             </HBox.margin>
                                           </Label>
                                        </children>
                                     </HBox>
@@ -792,12 +785,15 @@
                                                    <font>
                                                       <Font size="18.0" />
                                                    </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="20.0" left="20.0" top="20.0" />
+                                                   </VBox.margin>
                                                 </Label>
                                              </children>
                                           </VBox>
                                        </children>
                                     </HBox>
-                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="322.0" prefWidth="817.0">
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="347.0" prefWidth="848.0">
                                        <children>
                                           <VBox prefHeight="322.0" prefWidth="822.0">
                                              <children>
@@ -809,6 +805,9 @@
                                                                <image>
                                                                   <Image url="@../images/movies/movie1.jpg" />
                                                                </image>
+                                                               <VBox.margin>
+                                                                  <Insets />
+                                                               </VBox.margin>
                                                             </ImageView>
                                                             <Hyperlink prefHeight="23.0" prefWidth="78.0" text="Hyperlink">
                                                                <font>
@@ -889,7 +888,7 @@
                                                       </VBox>
                                                    </children>
                                                    <VBox.margin>
-                                                      <Insets bottom="10.0" left="15.0" />
+                                                      <Insets bottom="40.0" left="15.0" />
                                                    </VBox.margin>
                                                 </HBox>
                                                 <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
@@ -989,15 +988,19 @@
                                     </HBox>
                                     <HBox alignment="BOTTOM_RIGHT" layoutX="11.0" layoutY="11.0" prefHeight="44.0" prefWidth="876.0">
                                        <children>
-                                          <Button mnemonicParsing="false" text="more" />
+                                          <Button mnemonicParsing="false" text="more">
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" right="20.0" />
+                                             </HBox.margin>
+                                          </Button>
                                        </children>
                                     </HBox>
                                  </children>
                                  <VBox.margin>
-                                    <Insets bottom="40.0" />
+                                    <Insets bottom="40.0" left="10.0" />
                                  </VBox.margin>
                               </VBox>
-                              <VBox fx:id="tvEpisodesBox" prefHeight="485.0" prefWidth="850.0" styleClass="box" stylesheets="@../styles/home_page.css">
+                              <VBox fx:id="tvEpisodesBox" maxHeight="700.0" minHeight="581.0" prefHeight="581.0" prefWidth="840.0" styleClass="box" stylesheets="@../styles/home_page.css">
                                  <children>
                                     <HBox prefHeight="44.0" prefWidth="876.0" styleClass="top-pane" stylesheets="@../styles/home_page.css">
                                        <children>
@@ -1005,6 +1008,9 @@
                                              <font>
                                                 <Font size="24.0" />
                                              </font>
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" top="10.0" />
+                                             </HBox.margin>
                                           </Label>
                                        </children>
                                     </HBox>
@@ -1014,10 +1020,13 @@
                                              <font>
                                                 <Font size="18.0" />
                                              </font>
+                                             <HBox.margin>
+                                                <Insets bottom="20.0" left="20.0" top="20.0" />
+                                             </HBox.margin>
                                           </Label>
                                        </children>
                                     </HBox>
-                                    <VBox prefHeight="331.0" prefWidth="743.0">
+                                    <VBox prefHeight="422.0" prefWidth="848.0">
                                        <children>
                                           <HBox prefHeight="42.0" prefWidth="606.0">
                                              <children>
@@ -1107,7 +1116,7 @@
                                                 </VBox>
                                              </children>
                                              <VBox.margin>
-                                                <Insets bottom="10.0" left="15.0" />
+                                                <Insets bottom="30.0" left="15.0" />
                                              </VBox.margin>
                                           </HBox>
                                           <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
@@ -1203,12 +1212,18 @@
                                           </HBox>
                                           <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0">
                                              <children>
-                                                <Button mnemonicParsing="false" text="more" />
+                                                <Button mnemonicParsing="false" text="more">
+                                                   <HBox.margin>
+                                                      <Insets bottom="10.0" right="20.0" />
+                                                   </HBox.margin></Button>
                                              </children>
                                           </HBox>
                                        </children>
                                     </VBox>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
                               </VBox>
                            </children>
                         </VBox>
