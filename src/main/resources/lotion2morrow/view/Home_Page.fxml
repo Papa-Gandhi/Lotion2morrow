@@ -17,7 +17,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="2000.0" minWidth="-Infinity" prefHeight="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lotion2morrow.controllers.HomePageController">
    <children>
-      <ScrollPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ScrollPane maxHeight="2000.0" minHeight="2000.0" prefHeight="2000.0" snapToPixel="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <content>
             <BorderPane>
                <top>
@@ -125,7 +125,7 @@
                   </VBox>
                </top>
                <right>
-                  <VBox fx:id="allMoviesBox" minHeight="1000.0" prefHeight="1000.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+                  <VBox fx:id="allMoviesBox" BorderPane.alignment="CENTER">
                      <children>
                         <VBox styleClass="box" stylesheets="@../styles/home_page.css">
                            <children>
@@ -135,6 +135,9 @@
                                        <font>
                                           <Font size="24.0" />
                                        </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
                                     </Label>
                                  </children>
                               </HBox>
@@ -142,7 +145,7 @@
                                  <children>
                                     <Label prefHeight="27.0" prefWidth="148.0" text="Recommendation">
                                        <HBox.margin>
-                                          <Insets right="150.0" />
+                                          <Insets right="100.0" />
                                        </HBox.margin>
                                        <font>
                                           <Font size="18.0" />
@@ -154,6 +157,9 @@
                                        </font>
                                     </Label>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -171,6 +177,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="27.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -188,6 +197,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="68.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -205,6 +217,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="109.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -222,6 +237,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="150.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -239,6 +257,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="191.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -256,6 +277,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -273,6 +297,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -293,6 +320,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="314.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -310,6 +340,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                               <HBox alignment="CENTER" layoutX="10.0" layoutY="355.0" prefHeight="41.0" prefWidth="460.0">
                                  <children>
@@ -327,6 +360,9 @@
                                        </font>
                                     </Hyperlink>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets bottom="20.0" top="10.0" />
+                                 </VBox.margin>
                               </HBox>
                            </children>
                            <VBox.margin>
@@ -341,6 +377,9 @@
                                        <font>
                                           <Font size="24.0" />
                                        </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="10.0" />
+                                       </HBox.margin>
                                     </Label>
                                  </children>
                               </HBox>
@@ -351,7 +390,7 @@
                                           <Font size="18.0" />
                                        </font>
                                        <HBox.margin>
-                                          <Insets right="150.0" />
+                                          <Insets right="100.0" />
                                        </HBox.margin>
                                     </Label>
                                     <Label layoutX="10.0" layoutY="10.0" text="Popular">
@@ -360,6 +399,9 @@
                                        </font>
                                     </Label>
                                  </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
                               </HBox>
                               <VBox prefHeight="200.0" prefWidth="100.0">
                                  <children>
@@ -379,6 +421,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -396,6 +441,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -413,6 +461,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -430,6 +481,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -447,6 +501,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -464,6 +521,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -481,6 +541,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -498,6 +561,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -515,6 +581,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="276.0">
                                        <children>
@@ -532,6 +601,9 @@
                                              </font>
                                           </Hyperlink>
                                        </children>
+                                       <VBox.margin>
+                                          <Insets bottom="20.0" top="10.0" />
+                                       </VBox.margin>
                                     </HBox>
                                  </children>
                               </VBox>
@@ -543,6 +615,23 @@
                      </children>
                   </VBox>
                </right>
+               <center>
+                  <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </center>
+               <bottom>
+                  <HBox alignment="CENTER" prefHeight="100.0" styleClass="copyright-box" stylesheets="@../styles/home_page.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label text="Copyright@ 2021 Lotion2morrow All rights reserved">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="40.0" />
+                     </BorderPane.margin>
+                  </HBox>
+               </bottom>
             </BorderPane>
          </content>
       </ScrollPane>
