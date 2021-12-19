@@ -632,7 +632,7 @@
                <left>
                   <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                      <children>
-                        <VBox maxHeight="1273.0" minHeight="500.0" minWidth="800.0" prefHeight="1273.0" prefWidth="800.0">
+                        <VBox maxHeight="1400.0" minHeight="1400.0" minWidth="850.0" prefHeight="1400.0" prefWidth="844.0">
                            <children>
                               <HBox prefHeight="333.0" prefWidth="876.0">
                                  <children>
@@ -770,7 +770,7 @@
                                     </VBox>
                                  </children>
                               </HBox>
-                              <VBox fx:id="moviesBox" maxHeight="500.0" minHeight="329.0" prefHeight="430.0" prefWidth="800.0">
+                              <VBox fx:id="moviesBox" maxHeight="678.0" minHeight="329.0" prefHeight="450.0" prefWidth="850.0">
                                  <children>
                                     <HBox prefHeight="44.0" prefWidth="876.0">
                                        <children>
@@ -794,15 +794,33 @@
                                           </VBox>
                                        </children>
                                     </HBox>
-                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="192.0" prefWidth="876.0">
+                                    <HBox layoutX="10.0" layoutY="110.0" prefHeight="322.0" prefWidth="817.0">
                                        <children>
-                                          <VBox prefHeight="331.0" prefWidth="743.0">
+                                          <VBox prefHeight="322.0" prefWidth="822.0">
                                              <children>
-                                                <HBox prefHeight="42.0" prefWidth="606.0">
+                                                <HBox maxHeight="160.0" minHeight="160.0" prefHeight="160.0" prefWidth="816.0">
                                                    <children>
-                                                      <VBox prefHeight="200.0" prefWidth="100.0">
+                                                      <VBox fillWidth="false" prefHeight="171.0" prefWidth="144.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie1.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink prefHeight="23.0" prefWidth="78.0" text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="172.0" prefWidth="151.0">
+                                                         <children>
+                                                            <ImageView fitHeight="139.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie2.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -810,9 +828,13 @@
                                                             </Hyperlink>
                                                          </children>
                                                       </VBox>
-                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="172.0" prefWidth="151.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="139.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie3.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -820,9 +842,13 @@
                                                             </Hyperlink>
                                                          </children>
                                                       </VBox>
-                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="171.0" prefWidth="146.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie4.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -830,19 +856,13 @@
                                                             </Hyperlink>
                                                          </children>
                                                       </VBox>
-                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="171.0" prefWidth="133.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie5.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -852,17 +872,11 @@
                                                       </VBox>
                                                       <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="138.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie6.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -871,72 +885,89 @@
                                                          </children>
                                                       </VBox>
                                                    </children>
+                                                   <VBox.margin>
+                                                      <Insets bottom="10.0" left="15.0" />
+                                                   </VBox.margin>
                                                 </HBox>
                                                 <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
                                                    <children>
+                                                      <VBox prefHeight="147.0" prefWidth="142.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie8.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="152.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie9.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="147.0" prefWidth="148.0">
+                                                         <children>
+                                                            <ImageView fitHeight="114.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie10.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="147.0" prefWidth="145.0">
+                                                         <children>
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie11.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="147.0" prefWidth="140.0">
+                                                         <children>
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie12.jpg" />
+                                                               </image>
+                                                            </ImageView>
+                                                            <Hyperlink text="Hyperlink">
+                                                               <font>
+                                                                  <Font size="16.0" />
+                                                               </font>
+                                                            </Hyperlink>
+                                                         </children>
+                                                      </VBox>
                                                       <VBox prefHeight="200.0" prefWidth="100.0">
                                                          <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                            <Hyperlink text="Hyperlink">
-                                                               <font>
-                                                                  <Font size="16.0" />
-                                                               </font>
-                                                            </Hyperlink>
-                                                         </children>
-                                                      </VBox>
-                                                      <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                         <children>
-                                                            <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <ImageView fitHeight="113.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                               <image>
+                                                                  <Image url="@../images/movies/movie7.jpg" />
+                                                               </image>
+                                                            </ImageView>
                                                             <Hyperlink text="Hyperlink">
                                                                <font>
                                                                   <Font size="16.0" />
@@ -945,81 +976,10 @@
                                                          </children>
                                                       </VBox>
                                                    </children>
+                                                   <VBox.margin>
+                                                      <Insets bottom="10.0" left="15.0" />
+                                                   </VBox.margin>
                                                 </HBox>
-                                             </children>
-                                          </VBox>
-                                       </children>
-                                    </HBox>
-                                    <HBox prefHeight="42.0" prefWidth="606.0">
-                                       <children>
-                                          <VBox prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
-                                             </children>
-                                          </VBox>
-                                          <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                             <children>
-                                                <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                <Hyperlink text="Hyperlink">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Hyperlink>
                                              </children>
                                           </VBox>
                                        </children>
@@ -1050,9 +1010,13 @@
                                        <children>
                                           <HBox prefHeight="42.0" prefWidth="606.0">
                                              <children>
-                                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                                <VBox prefHeight="173.0" prefWidth="140.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="133.0" fitWidth="110.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv1.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1060,9 +1024,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="173.0" prefWidth="146.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="136.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv2.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1070,9 +1038,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="173.0" prefWidth="141.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="137.0" fitWidth="104.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv3.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1080,9 +1052,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="173.0" prefWidth="141.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="139.0" fitWidth="106.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv4.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1090,9 +1066,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="173.0" prefWidth="143.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="139.0" fitWidth="107.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv5.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1102,17 +1082,11 @@
                                                 </VBox>
                                                 <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="140.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv6.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1121,12 +1095,19 @@
                                                    </children>
                                                 </VBox>
                                              </children>
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" left="15.0" />
+                                             </VBox.margin>
                                           </HBox>
                                           <HBox layoutX="10.0" layoutY="341.0" prefHeight="42.0" prefWidth="606.0">
                                              <children>
-                                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                                <VBox prefHeight="163.0" prefWidth="138.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="123.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv7.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1134,9 +1115,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="163.0" prefWidth="148.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="125.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv8.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1144,9 +1129,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="163.0" prefWidth="142.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="126.0" fitWidth="109.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv9.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1154,9 +1143,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="163.0" prefWidth="139.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="128.0" fitWidth="106.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv10.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1164,83 +1157,13 @@
                                                       </Hyperlink>
                                                    </children>
                                                 </VBox>
-                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="163.0" prefWidth="143.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                             </children>
-                                          </HBox>
-                                          <HBox layoutX="10.0" layoutY="10.0" prefHeight="42.0" prefWidth="606.0">
-                                             <children>
-                                                <VBox prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="111.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="212.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="313.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="130.0" fitWidth="101.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv11.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1250,17 +1173,11 @@
                                                 </VBox>
                                                 <VBox layoutX="414.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
                                                    <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
-                                                      <Hyperlink text="Hyperlink">
-                                                         <font>
-                                                            <Font size="16.0" />
-                                                         </font>
-                                                      </Hyperlink>
-                                                   </children>
-                                                </VBox>
-                                                <VBox layoutX="515.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
-                                                   <children>
-                                                      <ImageView fitHeight="95.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+                                                      <ImageView fitHeight="130.0" fitWidth="108.0" pickOnBounds="true" smooth="false">
+                                                         <image>
+                                                            <Image url="@../images/tv/tv12.jpg" />
+                                                         </image>
+                                                      </ImageView>
                                                       <Hyperlink text="Hyperlink">
                                                          <font>
                                                             <Font size="16.0" />
@@ -1269,6 +1186,9 @@
                                                    </children>
                                                 </VBox>
                                              </children>
+                                             <VBox.margin>
+                                                <Insets bottom="10.0" left="15.0" />
+                                             </VBox.margin>
                                           </HBox>
                                        </children>
                                     </VBox>
