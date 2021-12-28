@@ -22,11 +22,11 @@ public interface EnterPageListeners {
                 stage.setScene(scene);
 
                 // Ensure that the stage is maximized when the scene is displayed
-                Screen screen = Screen.getPrimary();
-                Rectangle2D bounds = screen.getVisualBounds();
-                stage.setWidth(bounds.getWidth());
-                stage.setHeight(bounds.getHeight());
-                stage.setMaximized(true);
+//                Screen screen = Screen.getPrimary();
+//                Rectangle2D bounds = screen.getVisualBounds();
+//                stage.setWidth(bounds.getWidth());
+//                stage.setHeight(bounds.getHeight());
+   //             stage.setMaximized(true);
 
             } catch (IOException ioe) {
                 System.out.println("EnterPageListeners > onClickHome");
